@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  font-family: Avenir;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  background-color: rgb(53, 67, 85);
+}
+
+.header-logo img{
+  width: 70px;
+  height: 70px;
+  margin-right: auto;
+  border-radius: 40px;
+}
+
+.header-link{
+  display: flex;
+  margin-left: auto;
+  font-size: 18px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.header-link a {
+  color: #E5E7EB;
+}
